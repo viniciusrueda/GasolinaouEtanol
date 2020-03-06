@@ -6,8 +6,9 @@ import android.os.Bundle;
 import android.widget.ImageView;
 import android.widget.SeekBar;
 import android.widget.TextView;
+import android.widget.Toast;
 
-public class MainActivity extends AppCompatActivity {
+public abstract class MainActivity extends AppCompatActivity {
 
     private SeekBar seekBarGasolina;
     private SeekBar seekBarEtanol;
@@ -78,7 +79,7 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-
+        Toast.makeText(this, "Versão final", Toast.LENGTH_SHORT).show();
 
     }
 
@@ -106,4 +107,8 @@ public class MainActivity extends AppCompatActivity {
 
 
 
+
+
+
 }
+
