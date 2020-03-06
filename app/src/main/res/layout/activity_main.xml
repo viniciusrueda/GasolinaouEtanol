@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textGasolina"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/precoGasolina"
+        android:textSize="18sp" />
+
+    <SeekBar
+        android:id="@+id/seekBarGasolina"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="fill_horizontal"
+        android:max="10" />
+
+    <TextView
+        android:id="@+id/valorGasolina"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/valor" />
+
+    <TextView
+        android:id="@+id/textEtanol"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="@string/precoEtanol"
+        android:textSize="18sp" />
+
+    <SeekBar
+        android:id="@+id/seekBarEtanol"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="fill_horizontal"
+        android:max="10" />
+
+    <TextView
+        android:id="@+id/valorEtanol"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/valor" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/resultado"
+            android:layout_width="191dp"
+            android:layout_height="41dp"
+            android:layout_gravity="clip_horizontal|center_horizontal"
+            android:hint="@string/resultado" />
+
+        <ImageView
+            android:id="@+id/imagem"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|center|top"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/logo" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+</LinearLayout>

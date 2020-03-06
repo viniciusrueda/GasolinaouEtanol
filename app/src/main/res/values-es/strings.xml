@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="precoGasolina">Precio de la Gasolina:</string>
+    <string name="precoEtanol">Precio de Etanol</string>
+    <string name="resultado">Es mejor usar:</string>
+    <string name="valor">Valor en euros</string>
+    <string name="nomeGasolina">Gasolina</string>
+    <string name="nomeEtanol">Etanol</string>
+
+</resources>

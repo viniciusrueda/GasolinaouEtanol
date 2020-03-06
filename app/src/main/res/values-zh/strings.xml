@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="precoGasolina">汽油价格:</string>
+    <string name="precoEtanol">乙醇价格：</string>
+    <string name="resultado">最好使用:</string>
+    <string name="nomeGasolina">汽油</string>
+    <string name="nomeEtanol">乙醇</string>
+    <string name="valor">人民币价值</string>
+</resources>

@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Gasolina ou Etanol</string>
+    <string name="resultado">It is better to use:</string>
+    <string name="precoGasolina">Petrol Price:</string>
+    <string name="precoEtanol">Ethanol Price:</string>
+    <string name="nomeGasolina">Petrol</string>
+    <string name="nomeEtanol">Ethanol</string>
+    <string name="valor">Dollar value:</string>
+
+
+
+</resources>
